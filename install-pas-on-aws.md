@@ -2,15 +2,15 @@
 # PCF 설치 가이드
 https://docs.pivotal.io/pivotalcf/2-2/customizing/pcf-aws-manual-config.html
 
-# AWS 계정 생성
+# AWS IAM 계정 생성
 
 # 설치 준비
-DNS 
-IAM limit (VM) : 50개 신청
+* DNS 
+* IAM limit (VM) : 50개 신청
 
 
-# aws cli 설치:
-https://aws.amazon.com/cli/?sc_channel=PS&sc_campaign=acquisition_KR&sc_publisher=google&sc_medium=english_command_line_b&sc_content=aws_cli_p&sc_detail=aws%20cli&sc_category=command_line&sc_segment=211466232633&sc_matchtype=p&sc_Country=KR&s_kwcid=AL!4422!3!211466232633!p!!g!!aws%20cli&ef_id=Wx6C2wAAAJp261dN:20180620131114:s
+# aws cli 설치(옵션):
+https://aws.amazon.com/cli/
 
 ```
 $ 
