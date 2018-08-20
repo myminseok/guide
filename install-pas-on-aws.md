@@ -7,6 +7,7 @@ https://docs.pivotal.io/pivotalcf/2-2/customizing/pcf-aws-manual-config.html
 ## 설치 준비
 * DNS 
 * IAM limit (VM) : 50개 신청
+* EIP: 계정 하나에서 vpc여러개 만들 경우 10이상필요.
 
 
 ## aws cli 설치(옵션):
