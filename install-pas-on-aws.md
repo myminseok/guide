@@ -2,19 +2,18 @@
 # PCF 설치 가이드
 https://docs.pivotal.io/pivotalcf/2-2/customizing/pcf-aws-manual-config.html
 
-# AWS IAM 계정 생성
+## AWS IAM 계정 생성
 
-# 설치 준비
+## 설치 준비
 * DNS 
 * IAM limit (VM) : 50개 신청
 
 
-# aws cli 설치(옵션):
+## aws cli 설치(옵션):
 https://aws.amazon.com/cli/
 
 ```
 $ 
-
 brew install python@2
 pip install --upgrade pip setuptools
 pip install awscli
@@ -22,11 +21,10 @@ pip install awscli
 ```
 
 
-# aws cli 동작 확인:
+### aws cli 동작 확인:
 
 ```
 $ 
-
 aws ec2 describe-availability-zones 
 {
     "AvailabilityZones": [
